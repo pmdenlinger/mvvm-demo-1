@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        List(model.recipes) { r in
+            
+            VStack {
+                Text(r.name)
+                Text(r.cuisine)
+            }
+            
+        }
     }
 }
 
