@@ -13,12 +13,17 @@ struct ContentView: View {
     
     var body: some View {
         
-        List(model.recipes) { r in
-            
-            VStack(alignment: .leading) {
-                Text(r.name)
-                    .font(.title)
-                Text(r.cuisine)
+        VStack {
+            List(model.recipes) { r in
+                
+                VStack(alignment: .leading) {
+                    Text(r.name)
+                        .font(.title)
+                    Text(r.cuisine)
+                }
+            }
+            Button("Add Recipe") {
+                model.addRecipe()
             }
         }
     }
