@@ -15,11 +15,11 @@ struct ContentView: View {
         
         List(model.recipes) { r in
             
-            VStack {
+            VStack(alignment: .leading) {
                 Text(r.name)
+                    .font(.title)
                 Text(r.cuisine)
             }
-            
         }
     }
 }
