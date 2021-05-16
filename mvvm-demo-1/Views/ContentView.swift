@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var model = RecipeModel()
+    
     var body: some View {
         
         List(model.recipes) { r in
