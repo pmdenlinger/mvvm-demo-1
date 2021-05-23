@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA0BF55265AB44E00962C57 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CEA0BF54265AB44E00962C57 /* data.json */; };
 		CED94FD126503D6300360C4C /* mvvm_demo_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED94FD026503D6300360C4C /* mvvm_demo_1App.swift */; };
 		CED94FD326503D6300360C4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED94FD226503D6300360C4C /* ContentView.swift */; };
 		CED94FD526503D7900360C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED94FD426503D7900360C4C /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEA0BF54265AB44E00962C57 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		CED94FCD26503D6300360C4C /* mvvm-demo-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-demo-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED94FD026503D6300360C4C /* mvvm_demo_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_demo_1App.swift; sourceTree = "<group>"; };
 		CED94FD226503D6300360C4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEA0BF53265AB3EE00962C57 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CEA0BF54265AB44E00962C57 /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		CED94FC426503D6200360C4C = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 				CED94FE126503DD900360C4C /* ViewModels */,
 				CED94FE026503DCD00360C4C /* Models */,
 				CED94FDF26503DBF00360C4C /* Views */,
+				CEA0BF53265AB3EE00962C57 /* Data */,
 				CED94FD426503D7900360C4C /* Assets.xcassets */,
 				CED94FD926503D7900360C4C /* Info.plist */,
 				CED94FD626503D7900360C4C /* Preview Content */,
@@ -157,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED94FD826503D7900360C4C /* Preview Assets.xcassets in Resources */,
+				CEA0BF55265AB44E00962C57 /* data.json in Resources */,
 				CED94FD526503D7900360C4C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
